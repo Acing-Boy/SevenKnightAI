@@ -5,12 +5,21 @@ namespace SevenKnightsAI.Classes.Mappings
 {
     internal static class RaidLobbyPM
     {
+
         public static readonly PixelMapping AttackedTab = new PixelMapping
         {
             X = 350,
             Y = 91,
             Color = 0,
             Type = MappingType.BUTTON
+        };
+
+        public static readonly PixelMapping DefeatedTabPage = new PixelMapping
+        {
+            X = 800,
+            Y = 91,
+            Color = 0,
+            Type = MappingType.ANCHOR
         };
 
         public static readonly PixelMapping DefeatedTab = new PixelMapping
@@ -92,9 +101,17 @@ namespace SevenKnightsAI.Classes.Mappings
             Type = MappingType.ANCHOR
         };
 
-        public static readonly PixelMapping ManageParty1Border = new PixelMapping
+        public static readonly PixelMapping ManagePartyBorder1 = new PixelMapping
         {
             X = 46,
+            Y = 494,
+            Color = 8877126,
+            Type = MappingType.ANCHOR
+        };
+
+        public static readonly PixelMapping ManagePartyBorder2 = new PixelMapping
+        {
+            X = 234,
             Y = 494,
             Color = 8877126,
             Type = MappingType.ANCHOR
@@ -103,22 +120,6 @@ namespace SevenKnightsAI.Classes.Mappings
         public static readonly PixelMapping ManageParty1Button = new PixelMapping
         {
             X = 120,
-            Y = 500,
-            Color = 0,
-            Type = MappingType.BUTTON
-        };
-
-        public static readonly PixelMapping ManageParty2Border = new PixelMapping
-        {
-            X = 266,
-            Y = 494,
-            Color = 8877126,
-            Type = MappingType.ANCHOR
-        };
-
-        public static readonly PixelMapping ManageParty2Button = new PixelMapping
-        {
-            X = 323,
             Y = 500,
             Color = 0,
             Type = MappingType.BUTTON

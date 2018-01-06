@@ -60,9 +60,8 @@
     <OutputPath>bin\x64\Release\</OutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Magick.NET-Q8-AnyCPU, Version=7.0.0.0, Culture=neutral, PublicKeyToken=2004825badfa91ec, processorArchitecture=MSIL">
-      <HintPath>..\packages\Magick.NET-Q8-AnyCPU.7.0.3.502\lib\net40-client\Magick.NET-Q8-AnyCPU.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Magick.NET-Q8-AnyCPU">
+      <HintPath>..\Dll Files\Magick.NET-Q8-AnyCPU.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>External Files\Newtonsoft.Json.dll</HintPath>
@@ -82,10 +81,8 @@
     <Reference Include="AutoItX3.Assembly">
       <HintPath>External Files\AutoItX3.Assembly.dll</HintPath>
     </Reference>
-    <Reference Include="Tesseract, Version=3.0.2.0, Culture=neutral, PublicKeyToken=ebeb3d86bef60cbe, processorArchitecture=MSIL">
-      <HintPath>..\packages\Tesseract.3.0.2.0\lib\net40\Tesseract.dll</HintPath>
-      <SpecificVersion>False</SpecificVersion>
-      <Private>True</Private>
+    <Reference Include="Tesseract">
+      <HintPath>External Files\Tesseract.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

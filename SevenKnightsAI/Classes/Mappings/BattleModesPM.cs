@@ -18,7 +18,7 @@ namespace SevenKnightsAI.Classes.Mappings
         {
             X = 599,
             Y = 134,
-            Color = 2228482,
+            Color = 12040143,
             Type = MappingType.ANCHOR
         };
 
@@ -34,7 +34,7 @@ namespace SevenKnightsAI.Classes.Mappings
         {
             X = 365,
             Y = 126,
-            Color = 15204094,
+            Color = 13158616,
             Type = MappingType.ANCHOR
         };
 
@@ -78,6 +78,22 @@ namespace SevenKnightsAI.Classes.Mappings
         {
             X = 254,
             Y = 460,
+            Color = 0,
+            Type = MappingType.BUTTON
+        };
+
+        public static readonly PixelMapping AdventureButton = new PixelMapping
+        {
+            X = 883,
+            Y = 496,
+            Color = 0,
+            Type = MappingType.BUTTON
+        };
+
+        public static readonly PixelMapping RaidButton = new PixelMapping
+        {
+            X = 667,
+            Y = 106,
             Color = 0,
             Type = MappingType.BUTTON
         };
